@@ -7,7 +7,7 @@ variable "alias" {
 variable "pw_length" {
     description = "Enter minimum password length for IAM user"
     type = number
-    default = 3
+    default = 6
 }
 
 variable "required_symbols" {
