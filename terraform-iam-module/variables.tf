@@ -10,8 +10,8 @@ variable "pw_length" {
     default = 3
 }
 
-variable "required_numbers" {
+variable "required_symbols" {
     description = "Use numbers or not in IAM password"
     type = bool
-    default = true
+    default = false
 }
